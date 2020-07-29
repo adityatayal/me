@@ -1,0 +1,294 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    background-color: darkslategray;
+    text-align: center;
+}
+nav a{
+    color: white;
+}
+.navbar-brand{
+    float: right;
+    padding-right: 34rem;
+}
+.navbar-nav{
+    padding: 0 30px;
+}
+#navbarNav ul{
+    float: right;
+    text-align: left;
+}
+.navbar-nav:hover{
+    color: white;
+}
+
+.container-fluid{
+    align-items: left;
+}
+.about-link{
+    border: 3px solid white;
+    border-radius: 10%;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: seashell;
+}
+.navbar a{
+  color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.heading{
+    text-align: center;
+    color: palevioletred;
+    font-size: 70px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* ---------------------------------------Intro------------------------------------------- */
+#intro{
+    text-align: center;
+    color: powderblue;
+    /* background-color: #474e5d;   */
+    background-image: url('./assets/background.jpg');  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12rem 200px;
+}
+
+/* Animation */
+/* .anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+} */ 
+
+.name{
+    font-size: 60px;
+    font-weight: 700;
+}
+#home-intro{
+    padding: 50px;
+}
+.intro-fa .fa{
+    font-size: 30px;
+    color: white;
+    border-top: white;
+    border-width: thin;
+    padding: 10px;
+}
+/* ---------------------------------------About------------------------------------------- */
+#about{
+    box-sizing: border-box;
+    padding: 12rem 200px;
+    /* transition: all 0.5s ease-in-out; */
+}
+.fa-user{
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+.about-content{
+    padding: 2rem;
+    padding-top: 2rem;
+    font-size: 1.8rem;
+}
+#about h1{
+    color: royalblue;
+}
+.profile-img img{
+    padding: 2rem;
+    border-radius: 9rem;
+}
+
+
+/* ---------------------------------------Experiences------------------------------------- */
+#experience{
+    
+    padding: 12rem 200px;
+    padding-top: 2rem;
+}
+
+
+/* ---------------------------------------Education--------------------------------------- */
+#education{
+    padding: 12rem 200px;
+    padding-bottom: 0;
+}
+.fa-briefcase{
+    opacity: 1;
+}
+
+/* ------------------------------------------skill--------------------------------------- */
+
+
+.skill-list{
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+#projects button{
+    border: 5px gray solid;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 25rem;
+    padding: 10px 5%;
+}
+
+.skill-list div{
+    padding: 0 20rem;
+}
+/* ---------------------------------------Project----------------------------------------- */
+#projects{
+    padding: 12rem 200px;
+    background-color: #312d3c;
+}
+
+.project-list{
+    text-align: center;
+}
+
+.project-list button{
+    font-size: 25px;
+    padding: 10px 40%;
+}
+
+.project-element h2{
+    color: palevioletred;
+}
+
+.project-element{
+    border: 5px solid white;
+    padding: 2rem;
+    margin-bottom: 5px;
+    color: white;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.skill-list{
+    color: white;
+    padding-left: 30px;
+}
+/* ---------------------------------------interest---------------------------------------- */
+#interest{
+    padding: 12rem 200px;
+    background-color: #312d3c;
+    text-align: center;
+    color: white;
+}
+
+
+/* ---------------------------------------contact----------------------------------------- */
+#contact{
+    padding: 12rem 200px;
+    /* padding-bottom: 5rem; */
+    background-color: #e7f1f7;
+    text-align: center;
+}
+#contact img{
+    border-radius: 9rem;
+}
+
+.contact-heading{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+
+#interest span{
+    font-size: 5rem;
+}
+
+
+
+/* ----------------------------------------- Timeline ---------------------------------------- */
+
+.content{
+  padding: 20px;
+}
+
+.content-left{
+  text-align: right;
+  width: 35%;
+  padding: 2rem 5rem;
+  padding-left: 2rem;
+  display: inline-block;
+}
+.content-right{
+  text-align: left;
+  width: 50%;
+  padding: 2rem 5rem; 
+  display: inline-block;
+}
+
+/* Set a background color */
+#experience, #education{
+  background-color:#ebebeb;
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: gray;
+  top: 0;
+  opacity: 0.5;
+  bottom: 0;
+  left: 35%;
+  margin-left: -3px;
+    z-index: 0;
+}
+
+.content-icon{
+  text-align: center;
+  height: 4.8rem;
+  width: 4.8rem;
+  line-height: 4.8rem;
+  background: #313131;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  left: 35%;
+  /* top: .9rem; */
+  margin-left: -2.4rem;
+  z-index: 1;
+
+}
+
+
+footer .intro-fa{
+    text-align: center; 
+    background-color: darkslategray; 
+    background-size: cover;
+    padding: 1rem;
+}
